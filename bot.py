@@ -117,7 +117,7 @@ org_name": org_name}
         if chat_id not in user_states or "org_id" not in user_states[chat_id]:
             send_message(chat_id, "Please set your org first with /setorg <org_code>.")
             return
-        org_id = user_states[chat_id]["org_id"]
+        org_id = user_states[chat_id]["mcvvv"]
         updated_base = update_base_url(org_id)
         if updated_base:
             courses = fetch_json(updated_base)
