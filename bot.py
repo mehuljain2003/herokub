@@ -6,7 +6,7 @@ import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from time import sleep
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7946520115:AAEA_Zq0XI1lyZqWhxTLxjmpryDyKokp4sU")
 BASE_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 session = requests.Session()
 user_states = {}
